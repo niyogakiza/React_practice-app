@@ -1,0 +1,39 @@
+{
+  "name": "mypersonalweb",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-ga": "^2.4.1",
+    "react-helmet": "^5.2.0",
+    "react-icons": "^2.2.7",
+    "react-particles-js": "^2.1.1",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "react-scroll": "^1.7.7",
+    "semantic-ui-css": "^2.3.1",
+    "semantic-ui-react": "^0.79.0",
+    "styled-components": "^3.2.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy":"yarn run build & yarn run surge",
+    "homepage" : "http://niyogakiza.github.io/www.aimadev.eu",
+    "surge":"surge ./build/ --domain www.aimadev.eu",
+    "lint":"eslint src --ext .js,.jsx"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.4.0",
+    "surge": "^0.20.1"
+  }
+}
