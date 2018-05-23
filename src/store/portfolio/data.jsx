@@ -69,10 +69,10 @@ export default {
         image1: vueweb,
         image2: vueweb,
         name: 'Book Representation app',
-        description: 'Restaurant around me is an app used to get restaurants around by your location, made in React.js and Redux.',
+        description: 'Vue Application',
         link:'/portfolio/book',
         website: 'https://github.com/niyogakiza/vue-web.',
-        roles:['React', 'React-Redux', 'Google map API'],
-        caption:['Use an external API in Javascript','Develop a full react application according to specification', 'Debug an application using DevTools']
+        roles:['Vue.js', 'Vuetify', 'Vue-Router'],
+        caption:['Vue.js application']
     }
 };

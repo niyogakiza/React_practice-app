@@ -1,4 +1,5 @@
 import React from 'react';
+import { Message } from 'semantic-ui-react';
 import { SectionContainer, StyledH1, StyledParagraph, StyledHeader} from "../../../common";
 import { StyledBrandImage, StyledBrands } from "./styles";
 import commingsoon from '../../../../assets/about/comingsoon.png';
@@ -6,6 +7,10 @@ import commingsoon from '../../../../assets/about/comingsoon.png';
 
 const About = () =>(
     <SectionContainer>
+        <Message negative color='red'>
+            <Message.Header>This website is under construction.</Message.Header>
+            <p>Anytime will be updated, continue your visit.</p>
+        </Message>
         <StyledHeader>
             <StyledH1>
                 About Me
