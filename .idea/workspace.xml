@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="610badea-8f4f-4aaf-8f9a-7a0d64be40aa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/portfolio/couple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/portfolio/couple2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/portfolio/resto-rating.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/portfolio/resto-review.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/portfolio/resto-streetview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/portfolio/resto1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/portfolio/resto2-google.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/portfolio/vue.web.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/SectionContainer/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/SectionContainer/styles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/views/Home/About/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/views/Home/About/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/views/Home/About/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/views/Home/About/styles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/views/Home/Contact/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/views/Home/Contact/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/views/Home/Contact/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/views/Home/Contact/styles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/views/Home/OpenSource/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/views/Home/OpenSource/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/views/Home/OpenSource/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/views/Home/OpenSource/styles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/views/Home/Portfolio/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/views/Home/Portfolio/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/views/Home/Portfolio/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/views/Home/Portfolio/styles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/views/Home/Skills/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/views/Home/Skills/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/views/Home/Skills/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/views/Home/Skills/styles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/views/PortfolioPage/styles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/views/PortfolioPage/styles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/portfolio/data.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/portfolio/data.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="610badea-8f4f-4aaf-8f9a-7a0d64be40aa" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -43,6 +19,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/views/Home/Portfolio/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="data.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/store/portfolio/data.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -414,16 +399,15 @@
       <workItem from="1522407145879" duration="1252000" />
       <workItem from="1522783809126" duration="839000" />
       <workItem from="1526483216796" duration="3042000" />
-      <workItem from="1527077255025" duration="11605000" />
+      <workItem from="1527077255025" duration="12204000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58255000" />
+    <option name="totallyTimeSpent" value="58854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1044" height="643" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="SvgViewer" order="3" />
@@ -431,8 +415,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.31627056" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.0" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24351297" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3288719" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24351297" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="JSON Utils" order="3" />
       <window_info anchor="right" id="Copy/Paste" order="3" />
@@ -631,13 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -816,6 +793,13 @@
           <folding>
             <element signature="e#0#63#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
         </state>
       </provider>
     </entry>

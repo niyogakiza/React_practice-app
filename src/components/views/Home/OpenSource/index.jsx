@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Divider } from 'semantic-ui-react';
+import { Grid} from 'semantic-ui-react';
 import { IoSocialHackernews } from 'react-icons/lib/io';
 import { FaMedium } from 'react-icons/lib/fa';
 import { SectionContainer, StyledH1, StyledParagraph, StyledHeader} from "../../../common";
