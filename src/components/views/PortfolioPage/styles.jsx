@@ -10,8 +10,8 @@ export const StyledHeroHeader = styled.header`
 export const StyledHero = styled.div`
    display: block;
    position: relative;
-   opacity: 0.6;
-   min-height: 500px;
+   opacity: 0.5;
+   min-height: 600px;
    background-image: url(${props => props.src});
    background-size: cover;
    background-position: center;

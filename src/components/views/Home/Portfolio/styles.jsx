@@ -49,6 +49,7 @@ export const StyledCaption = styled.div`
   width: 100%;
   padding: 130px 100px;
   text-align: left;
+  border: 2px solid white;
   
   @media(max-width: 968px){
     padding: 130px 25px;
@@ -56,14 +57,14 @@ export const StyledCaption = styled.div`
 `;
 
 export const StyledH2 = styled.h2`
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 500;
   text-shadow: 1px 3px 2px rgba(0, 0, 0,0.3);
   letter-spacing: 0px;
   text-transform: uppercase;
   color: white;
   line-height: normal;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   
   @media(max-width: 968px){
     font-size: 32px;
@@ -78,10 +79,11 @@ export const StyledP = styled.p`
   display: inline-block;
   padding: 0.4em 1em;
   background: rgba(255, 255, 255, 0.9);
-  color: #2f3238;
+  color: RGB(105, 105, 105);
   text-transform: none;
   font-weight: 500px;
   font-size: 18px;
+  border-radius: 10px;
   
   @media (max-width: 968px){
     font-size: 16px;

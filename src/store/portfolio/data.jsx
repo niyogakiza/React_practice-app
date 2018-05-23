@@ -4,6 +4,10 @@ import reactnativeapi from '../../assets/portfolio/reactnativeapi.png';
 import employeeShifts from '../../assets/portfolio/employeeShits.png';
 import mysqlp4 from '../../assets/portfolio/mysqlp4.png';
 import boardgamep5 from '../../assets/portfolio/boardgamep5.png';
+import couple from '../../assets/portfolio/couple.png';
+import couple2 from '../../assets/portfolio/couple2.png';
+import vueweb from '../../assets/portfolio/vue.web.png';
+import resto2 from '../../assets/portfolio/resto2-google.png';
 import game from '../../assets/portfolio/game2.png';
 
 
@@ -11,6 +15,7 @@ export default {
     restaurant:{
         image1: restaurant,
         image2: restaurant2,
+        image3: resto2,
         name: 'Restaurants around me!',
         description: 'Restaurant around me is an app used to get restaurants around by your location, made in React.js and Redux.',
         link:'/portfolio/restaurant',
@@ -49,5 +54,25 @@ export default {
         website:'https://github.com/niyogakiza/Employee-Shifts-Apps',
         roles:['React Native', 'Firebase', 'Redux'],
         caption:['React native practice']
+    },
+    couple:{
+        image1: couple,
+        image2: couple2,
+        name: 'Couple app',
+        description: 'This is couple web for their events, did it for practice.',
+        link:'/portfolio/couple',
+        website: 'https://github.com/niyogakiza/couplesParty.',
+        roles:['React', 'React-Router', 'Google map API', 'Font-awesome', 'Jquery', 'Bootstarp 4'],
+        caption:['Built in React.js']
+    },
+    Book:{
+        image1: vueweb,
+        image2: vueweb,
+        name: 'Book Representation app',
+        description: 'Restaurant around me is an app used to get restaurants around by your location, made in React.js and Redux.',
+        link:'/portfolio/book',
+        website: 'https://github.com/niyogakiza/vue-web.',
+        roles:['React', 'React-Redux', 'Google map API'],
+        caption:['Use an external API in Javascript','Develop a full react application according to specification', 'Debug an application using DevTools']
     }
 };

@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const StyledH2 = styled.h2`
   font-size: 1.3em;
   font-weight: 600;
-  padding-top: 20px;
+  padding-top: 10px;
 `;
 
 export const StyledReactImg = styled.img`

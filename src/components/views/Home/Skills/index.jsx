@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid } from 'semantic-ui-react';
+import { Grid, Divider } from 'semantic-ui-react';
 import { IoSocialJavascript, IoSocialHtml5, IoSocialCss3, IoSocialNodejs, IoSocialApple, IoSocialWordpress, IoSocialHackernews} from 'react-icons/lib/io';
 import { SectionContainer, StyledH1, StyledParagraph, StyledHeader } from "../../../common";
 import reactIcon from '../../../../assets/reactIcon.svg.png';
@@ -10,7 +10,7 @@ const Skills = () =>(
     <SectionContainer inverted>
         <StyledHeader>
             <StyledH1>
-                Skills
+                <Divider horizontal>Skills</Divider>
             </StyledH1>
             <StyledParagraph>
                 I have a year experience as a Software Developer. I keep myself updated with the latest

@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import _ from 'lodash';
 import React from 'react';
-import { Grid } from 'semantic-ui-react';
+import { Grid, Divider } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 import { SectionContainer, StyledH1, StyledParagraph, StyledHeader } from "../../../common";
 import { StyledImage, StyledColumn, StyledCaption, StyledH2, StyledP, StyledPContainer} from "./styles";
@@ -12,7 +12,7 @@ const Portfolio = () =>(
          <SectionContainer>
              <StyledHeader>
                  <StyledH1>
-                     Portfolio
+                     <Divider horizontal>Portfolio</Divider>
                  </StyledH1>
                  <StyledParagraph>
                      Below you can find examples of my projects I have done while studying. More projects will follow shortly.

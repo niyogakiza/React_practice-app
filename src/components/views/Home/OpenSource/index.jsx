@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid } from 'semantic-ui-react';
+import { Grid, Divider } from 'semantic-ui-react';
 import { IoSocialHackernews } from 'react-icons/lib/io';
 import { FaMedium } from 'react-icons/lib/fa';
 import { SectionContainer, StyledH1, StyledParagraph, StyledHeader} from "../../../common";
@@ -11,7 +11,7 @@ const OpenSource = () =>(
     <SectionContainer inverted>
         <StyledHeader>
             <StyledH1>
-                Open Source
+                 Open Source
             </StyledH1>
             <StyledParagraph>
                 I love to follow and willing to contribute in opening source projects such as React, Vue.js, Node.js and others.

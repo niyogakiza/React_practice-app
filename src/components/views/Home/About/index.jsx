@@ -2,6 +2,7 @@ import React from 'react';
 import { SectionContainer, StyledH1, StyledParagraph, StyledHeader} from "../../../common";
 import { StyledBrandImage, StyledBrands } from "./styles";
 import commingsoon from '../../../../assets/about/comingsoon.png';
+import {Divider} from "semantic-ui-react";
 
 
 const About = () =>(
