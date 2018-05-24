@@ -1,7 +1,7 @@
 /* eslint-disable import/prefer-default-export */
 
 import styled from 'styled-components';
-import { IoSocialGithub } from 'react-icons/lib/io';
+import { IoSocialGithub, IoSocialLinkedin } from 'react-icons/lib/io';
 import { Button } from 'semantic-ui-react';
 
 export const StyledH2 = styled.h2`
@@ -25,6 +25,11 @@ export const StyledButton = styled(Button)`
 `;
 
 export const StyledIoSocialGithub = styled(IoSocialGithub)`
+   && {
+     margin-top: -3px;
+   }
+`;
+export const StyledIoSocialLinkedin = styled(IoSocialLinkedin)`
    && {
      margin-top: -3px;
    }

@@ -7,15 +7,15 @@ import boardgamep5 from '../../assets/portfolio/boardgamep5.png';
 import couple from '../../assets/portfolio/couple.png';
 import couple2 from '../../assets/portfolio/couple2.png';
 import vueweb from '../../assets/portfolio/vue.web.png';
-import resto2 from '../../assets/portfolio/resto2-google.png';
 import game from '../../assets/portfolio/game2.png';
+import screen from '../../assets/portfolio/screen.png';
+import screen2 from '../../assets/portfolio/screen2.png';
 
 
 export default {
     restaurant:{
         image1: restaurant,
         image2: restaurant2,
-        image3: resto2,
         name: 'Restaurants around me!',
         description: 'Restaurant around me is an app used to get restaurants around by your location, made in React.js and Redux.',
         link:'/portfolio/restaurant',
@@ -34,6 +34,19 @@ export default {
         roles:['mySql', 'database','UML diagrams'],
         caption:['Use a schema when designing a database','Create technical architecture using UML diagrams','Design a database schema'],
     },
+
+    quotes:{
+        image1: screen,
+        image2: screen,
+        name: 'Quotes Generator',
+        description:'Design an algorithm to meet a specification\n' +
+        'Implement the JavaScript syntax in a program',
+        link:'/portfolio/quotes',
+        website: 'https://github.com/niyogakiza/Openclassroom-Project5',
+        roles:['Javascript OOP'],
+        caption:['Random quote Generator in order', 'to combine javascript programming',' with algorithms'],
+    },
+
     game:{
         image1:boardgamep5,
         image2: game,
@@ -45,6 +58,7 @@ export default {
         caption:['Implement the jQuery library','Design reusable JavaScript architecture', 'Develop an object-oriented JavaScript application']
 
     },
+
     reactnative:{
         image1:reactnativeapi,
         image2: employeeShifts,
@@ -55,24 +69,36 @@ export default {
         roles:['React Native', 'Firebase', 'Redux'],
         caption:['React native practice']
     },
+
     couple:{
         image1: couple,
         image2: couple2,
         name: 'Couple app',
         description: 'This is couple web for their events, did it for practice.',
         link:'/portfolio/couple',
-        website: 'https://github.com/niyogakiza/couplesParty.',
+        website: 'https://github.com/niyogakiza/couplesParty',
         roles:['React', 'React-Router', 'Google map API', 'Font-awesome', 'Jquery', 'Bootstarp 4'],
         caption:['Built in React.js']
     },
+
     Book:{
         image1: vueweb,
         image2: vueweb,
         name: 'Book Representation app',
         description: 'Vue Application',
-        link:'/portfolio/book',
-        website: 'https://github.com/niyogakiza/vue-web.',
+        link:'/portfolio/Book',
+        website: 'https://github.com/niyogakiza/vue-web',
         roles:['Vue.js', 'Vuetify', 'Vue-Router'],
         caption:['Vue.js application']
+    },
+    testing:{
+        image1: screen2,
+        image2: screen2,
+        name: 'Jasmine Testing & Debug',
+        description: 'Fixing bugs, adding tests, and optimizing performance.',
+        link:'/portfolio/testing',
+        website: 'https://github.com/niyogakiza/Openclassroom_Project-8',
+        roles:['Jasmine', 'javascript'],
+        caption:['Debug', 'Testing', 'Analyze performance']
     }
 };

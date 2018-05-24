@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, Divider } from 'semantic-ui-react';
-import { IoSocialJavascript, IoSocialHtml5, IoSocialCss3, IoSocialNodejs, IoSocialApple, IoSocialWordpress, IoSocialHackernews} from 'react-icons/lib/io';
+import { IoSocialJavascript, IoSocialHtml5, IoSocialCss3, IoSocialNodejs, IoSocialApple, IoSocialWordpress, IoSocialHackernews, IoSocialSass} from 'react-icons/lib/io';
 import { SectionContainer, StyledH1, StyledParagraph, StyledHeader } from "../../../common";
 import reactIcon from '../../../../assets/reactIcon.svg.png';
 import vueIcon from '../../../../assets/vueIcon.png';
@@ -54,6 +54,10 @@ const Skills = () =>(
             <Grid.Column>
                 <StyledReactImg src={vueIcon} alt="vue icon"/>
                 <StyledH2>Vue.js</StyledH2>
+            </Grid.Column>
+            <Grid.Column>
+                <IoSocialSass size="70"/>
+                <StyledH2>Sass</StyledH2>
             </Grid.Column>
         </Grid>
     </SectionContainer>

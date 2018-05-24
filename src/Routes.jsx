@@ -20,6 +20,10 @@ const Router = () =>(
                     <Route exact path="/portfolio/database" render={() => <PortfolioPage data={data.database} />}/>
                     <Route exact path="/portfolio/game" render={() => <PortfolioPage data={data.game} />}/>
                     <Route exact path="/portfolio/reactnative" render={() => <PortfolioPage data={data.reactnative} />}/>
+                    <Route exact path="/portfolio/Book" render={() => <PortfolioPage data={data.Book} />}/>
+                    <Route exact path="/portfolio/quotes" render={() => <PortfolioPage data={data.quotes} />}/>
+                    <Route exact path="/portfolio/couple" render={() => <PortfolioPage data={data.couple} />}/>
+                    <Route exact path="/portfolio/testing" render={() => <PortfolioPage data={data.testing} />}/>
                     <Route component={NotFound} />
                 </Switch>
             </div>

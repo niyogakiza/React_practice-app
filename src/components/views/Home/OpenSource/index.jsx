@@ -4,7 +4,7 @@ import { IoSocialHackernews } from 'react-icons/lib/io';
 import { FaMedium } from 'react-icons/lib/fa';
 import { SectionContainer, StyledH1, StyledParagraph, StyledHeader} from "../../../common";
 import reactIcon from '../../../../assets/reactIcon.svg.png';
-import {StyledButton, StyledH2, StyledIoSocialGithub, StyledReactImg} from "./styles";
+import {StyledButton, StyledH2, StyledIoSocialGithub, StyledReactImg, StyledIoSocialLinkedin} from "./styles";
 
 
 const OpenSource = () =>(
@@ -35,6 +35,9 @@ const OpenSource = () =>(
         <StyledParagraph >
             <StyledButton size="large" href="https://github.com/niyogakiza" target="_blank" rel="noopener noreferrer">
                 <StyledIoSocialGithub/> Visit my Github.com profile
+            </StyledButton>
+            <StyledButton size="large" href="https://www.linkedin.com/in/niyogakiza-aimable-38386247/" target="_blank" rel="noopener noreferrer">
+                <StyledIoSocialLinkedin/> Visit my Linkedin profile
             </StyledButton>
         </StyledParagraph>
     </SectionContainer>
