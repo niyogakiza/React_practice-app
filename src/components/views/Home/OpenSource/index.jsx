@@ -28,16 +28,16 @@ const OpenSource = () =>(
                 <StyledH2>Mattermost</StyledH2>
             </Grid.Column>
             <Grid.Column>
-                <FaMedium size="70"/>
+                <FaMedium size="70" color='green'/>
                 <StyledH2>Medium</StyledH2>
             </Grid.Column>
         </Grid>
         <StyledParagraph >
             <StyledButton size="large" href="https://github.com/niyogakiza" target="_blank" rel="noopener noreferrer">
-                <StyledIoSocialGithub/> Visit my Github.com profile
+                <StyledIoSocialGithub color="black"/> Visit my Github.com profile
             </StyledButton>
             <StyledButton size="large" href="https://www.linkedin.com/in/niyogakiza-aimable-38386247/" target="_blank" rel="noopener noreferrer">
-                <StyledIoSocialLinkedin/> Visit my Linkedin profile
+                <StyledIoSocialLinkedin color="blue"/> Visit my Linkedin profile
             </StyledButton>
         </StyledParagraph>
     </SectionContainer>

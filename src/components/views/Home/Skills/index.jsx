@@ -24,27 +24,27 @@ const Skills = () =>(
                 <StyledH2>React</StyledH2>
             </Grid.Column>
             <Grid.Column>
-                <IoSocialJavascript size="70"/>
+                <IoSocialJavascript size="70" color="yellow"/>
                 <StyledH2>Javascript (ES6)</StyledH2>
             </Grid.Column>
             <Grid.Column>
-                <IoSocialHtml5 size="70"/>
+                <IoSocialHtml5 size="70" color="orange"/>
                 <StyledH2>HTML5</StyledH2>
             </Grid.Column>
             <Grid.Column>
-                <IoSocialCss3 size="70"/>
+                <IoSocialCss3 size="70" color="blue"/>
                 <StyledH2>CSS3</StyledH2>
             </Grid.Column>
             <Grid.Column>
-                <IoSocialNodejs size="70"/>
+                <IoSocialNodejs size="70" color="green"/>
                 <StyledH2>Node.js</StyledH2>
             </Grid.Column>
             <Grid.Column>
-                <IoSocialWordpress size="70"/>
+                <IoSocialWordpress size="70" color="CORNFLOWERBLUE"/>
                 <StyledH2>WordPress Designs</StyledH2>
             </Grid.Column>
             <Grid.Column>
-                <IoSocialApple size="70"/>
+                <IoSocialApple size="70" color="LIGHTGRAY"/>
                 <StyledH2>React Native ios/android</StyledH2>
             </Grid.Column>
             <Grid.Column>
@@ -56,7 +56,7 @@ const Skills = () =>(
                 <StyledH2>Vue.js</StyledH2>
             </Grid.Column>
             <Grid.Column>
-                <IoSocialSass size="70"/>
+                <IoSocialSass size="70" color="red"/>
                 <StyledH2>Sass</StyledH2>
             </Grid.Column>
         </Grid>

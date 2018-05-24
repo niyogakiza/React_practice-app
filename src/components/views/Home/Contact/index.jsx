@@ -17,6 +17,7 @@ const Contact = () =>(
         </StyledHeader>
         <StyledForm action="//formspree.io/aimadev.soft@gmail.com" method="POST">
             <StyledInput
+                focus
                 label="Name"
                 control="input"
                 name="name"
@@ -25,14 +26,16 @@ const Contact = () =>(
                 required
             />
             <StyledInput
+                focs
                 label="Email"
                 control="input"
                 name="_replyto"
                 type="email"
                 placeholder="yourname@company.com"
-                required
+               required
             />
             <StyledInput
+                focus
                 label="Message"
                 control="textarea"
                 name="message"
@@ -43,7 +46,7 @@ const Contact = () =>(
             <Form.Field>
                 <Checkbox label='I agree to the Terms and Conditions' />
             </Form.Field>
-            <Button secondary> Send</Button>
+            <Button secondary inverted color='blue'> Send</Button>
         </StyledForm>
     </SectionContainer>
 );
